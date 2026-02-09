@@ -1,0 +1,36 @@
+package formatTask;
+
+public class FormatTask02 {
+   public static void main(String[] args) {
+//      %자릿수d
+//      %5d
+      
+//      국어점수, 영어점수, 수학점수를 받아서 서식에 맞게 출력
+//      이름: 이규학
+//      수학:    20점
+//      국어:    40점
+//      영어:    15점
+//      총점:    75점
+	   
+	   String name = "";
+	   int math = 0, kor = 0, eng = 0;
+	   
+	   name = "노민균";
+	   math = 20;
+	   kor = 40;
+	   eng = 15;
+	   
+	   int average = math + kor + eng;
+	   
+	   String result = " 이름: %6s 님 의 점수는\n 수학: %5d 점\n 국어: %5d 점\n 영어: %5d 점\n 총점: %5d 점 입니다.\n";
+	   
+	   System.out.printf(result, name, math, kor, eng, average);
+	   
+	   System.out.printf(" 이름: %6s 님 의 점수는\n", name);
+	   System.out.printf(" 수학: %5d 점\n", math);
+	   System.out.printf(" 국어: %5d 점\n", kor);
+	   System.out.printf(" 영어: %5d 점\n", eng);
+	   System.out.printf(" 총점: %5d 점\n", average);
+	   
+   }
+}

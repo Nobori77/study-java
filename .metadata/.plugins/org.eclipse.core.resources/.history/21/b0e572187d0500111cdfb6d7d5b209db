@@ -1,0 +1,8 @@
+package fotmatTask;
+
+public class FormatTask01 {
+	public static void main(String[] args) {
+		
+	}
+
+}

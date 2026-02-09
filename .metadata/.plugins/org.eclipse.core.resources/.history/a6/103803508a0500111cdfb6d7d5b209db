@@ -1,0 +1,24 @@
+package castingTask;
+
+public class CastingTask01 {
+   public static void main(String[] args) {
+//      6.37, 3.99, 3
+//      3개의 값을 연산하여 3을 만들기
+//      단 모두 한 번씩 사용해야한다.
+	   
+	   int num1 = 0, num4 = 0, num5 = 0, num6 = 0;
+	   double num2 = 0.0, num3= 0.0;
+	   
+	   num1 = 3;
+	   num2 = 6.37;
+	   num3 = 3.99;
+	   
+	   num4 = ((int)num2 + (int)num3) / num1;
+	   
+	   num5 = (int)num2 + (int)num3;
+	   num6 = num4 / num1;
+	   
+	   System.out.println(num4);
+	   System.out.println(num6);
+   }
+}
