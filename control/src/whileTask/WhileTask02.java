@@ -40,3 +40,27 @@ public class WhileTask02 {
       
    }
 }
+
+
+//Scanner sc = new Scanner(System.in);
+//String message = "정수를 입력하세요\n10", 
+//      expression = null, prev = "", result = "";
+//int total = 0, count = 0;
+//
+//while(true) {
+//   count++;
+//   System.out.println(message);
+//   expression = sc.next();
+//   total += Integer.parseInt(expression);
+//   
+//   result = count == 1 ? String.valueOf(Integer.parseInt(expression)) : prev + ", " + String.valueOf(Integer.parseInt(expression));
+//   prev = result;
+//   
+//   if(total >= 100) {
+//      System.out.println(total);
+//      System.out.println(result);
+//      break;
+//   }
+//}
+//}
+//}
