@@ -9,40 +9,65 @@ public class ArrayTask05 {
 //      입력예시)
 //      test123!@#
       
-//      비밀번호 이외의 특수문자가 나올 수 있음.
+//      ? 이외의 특수문자가 나올 수 있음.
 //      출력 예시)
 //      ???????
-
-//	   먼저 출력
-//		패스워드가 입력되면 비밀번호 이외의 특수문자가 나와야함
-//	   배열은 같은 인덱스 번호에 값을 넣으면 덮어쓰기가 됌 그러면 그 위 비밀번호가
-//	   사라지는거니 이건 X
-//	   그렇다면 출력한 비밀번호를 다르게 바꿔줘야 한다는건데 이걸 덮어쓰기 말고 어떻게 만들어야 하지?
-//	   그러면 반복문을 사용해서 인덱스값을 확인후 그 인덱스 값을 처리할때 나올 메세지를 바꾸면 되나?
-	   
-	   
-	   Scanner sc = new Scanner(System.in);
-	   String message = "비밀번호를 입력하세요",
-			  passworld = null;
-	   String[] passworldData = null;
-	   
-	   System.out.println(message);
-	   passworld = sc.next();
-	   passworldData = new String[passworld.length()];
-	   
-	   for(int i = 0; i < passworld.length(); i++) {
-		   System.out.print("?");
-	   }
-	   
-	   
-//	   
+//      Scanner sc = new Scanner(System.in);
+//      String message = "패스워드를 입력하세요", password = null,
+//            encryptPassword = "";
+//      
+//      System.out.println(message);
+//      password = sc.nextLine();
+//      
+//      
+//      for(int i = 0; i < password.length(); i++) {
+//         encryptPassword += (char)(password.charAt(i) * 300);
+//      }
+//      
+//      System.out.println(encryptPassword);
+      
+      
 //      2. 가장 많이 판매된 상품의 총 판매 수익과
 //      가장 적게 판매되 상품의 판매 수익의 차를 출력하세요.
 //      아메리카노 2000원, 카페라떼 3000원, 에이드 4000원, 밀크쉐이크 5000원
       String[] menus = {"아메리카노", "카페라떼", "에이드", "밀크쉐이크"};
+      int[] prices = {2000, 3000, 4000, 5000}, totalPrices = new int[4];
+      int min = 0, max = 0;
       
 //      orders의 정수는 menus의 주문 번호입니다.
       int[] orders = {0, 1, 0, 1, 3, 1, 1, 2, 2, 0, 2, 3, 1, 2, 3, 0, 2, 2, 1, 1, 0};
       
+      for(int i = 0;i < orders.length; i++) {
+         totalPrices[orders[i]] += prices[orders[i]]; 
+      }
+      
+      min = totalPrices[0];
+      max = totalPrices[0];
+
+      for(int i = 1; i < totalPrices.length; i++) {
+         if(min > totalPrices[i]) { min = totalPrices[i]; }
+         if(max < totalPrices[i]) { max = totalPrices[i]; }
+      }
+      
+      System.out.println(max - min);
+      
    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
