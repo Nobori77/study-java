@@ -13,4 +13,5 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="classTask.Company"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="inheritanceTest.SuperCar"/>
 </qualifiedTypeNameHistroy>
