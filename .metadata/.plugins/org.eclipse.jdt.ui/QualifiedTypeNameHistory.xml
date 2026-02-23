@@ -12,6 +12,8 @@
     <fullyQualifiedTypeName name="classTest.StaticTest"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="classTask.Company"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="inheritanceTest.SuperCar"/>
+    <fullyQualifiedTypeName name="classTask1.Animation"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="classTask3.Harbivore"/>
 </qualifiedTypeNameHistroy>
