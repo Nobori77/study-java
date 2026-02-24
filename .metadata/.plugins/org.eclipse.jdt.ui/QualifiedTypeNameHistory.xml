@@ -16,4 +16,10 @@
     <fullyQualifiedTypeName name="classTask1.Animation"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="classTask3.Harbivore"/>
+    <fullyQualifiedTypeName name="abstractTest.Electronics"/>
+    <fullyQualifiedTypeName name="interfaceTest.PetAdapter"/>
+    <fullyQualifiedTypeName name="interfaceTask.HumanAction"/>
+    <fullyQualifiedTypeName name="interfaceTask1.Human"/>
+    <fullyQualifiedTypeName name="interfaceTask1.HumanAction"/>
+    <fullyQualifiedTypeName name="interfaceTask1.HumanActionAdapter"/>
 </qualifiedTypeNameHistroy>
