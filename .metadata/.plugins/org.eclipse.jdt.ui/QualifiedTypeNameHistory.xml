@@ -14,7 +14,6 @@
     <fullyQualifiedTypeName name="classTask.Company"/>
     <fullyQualifiedTypeName name="inheritanceTest.SuperCar"/>
     <fullyQualifiedTypeName name="classTask1.Animation"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="classTask3.Harbivore"/>
     <fullyQualifiedTypeName name="abstractTest.Electronics"/>
     <fullyQualifiedTypeName name="interfaceTest.PetAdapter"/>
@@ -22,4 +21,14 @@
     <fullyQualifiedTypeName name="interfaceTask1.Human"/>
     <fullyQualifiedTypeName name="interfaceTask1.HumanAction"/>
     <fullyQualifiedTypeName name="interfaceTask1.HumanActionAdapter"/>
+    <fullyQualifiedTypeName name="interfaceTest2.Animal"/>
+    <fullyQualifiedTypeName name="interfaceTest2.HerbivoreMarker"/>
+    <fullyQualifiedTypeName name="interfaceTest2.CarnivoreMarker"/>
+    <fullyQualifiedTypeName name="anonymousTask1.EventMarker"/>
+    <fullyQualifiedTypeName name="anonymousTask1.Starbucks"/>
+    <fullyQualifiedTypeName name="lambdaTask1.PrintNumber"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="lambdaTask4.Multiplication"/>
+    <fullyQualifiedTypeName name="lambdaTask4.FourBasic"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
 </qualifiedTypeNameHistroy>
