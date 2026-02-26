@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="java.lang.Void"/>
@@ -10,7 +9,6 @@
     <fullyQualifiedTypeName name="methodTask.MethodTask2"/>
     <fullyQualifiedTypeName name="classTest.Animal"/>
     <fullyQualifiedTypeName name="classTest.StaticTest"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="classTask.Company"/>
     <fullyQualifiedTypeName name="inheritanceTest.SuperCar"/>
     <fullyQualifiedTypeName name="classTask1.Animation"/>
@@ -27,8 +25,22 @@
     <fullyQualifiedTypeName name="anonymousTask1.EventMarker"/>
     <fullyQualifiedTypeName name="anonymousTask1.Starbucks"/>
     <fullyQualifiedTypeName name="lambdaTask1.PrintNumber"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="lambdaTask4.Multiplication"/>
     <fullyQualifiedTypeName name="lambdaTask4.FourBasic"/>
     <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="apiTest.Calc"/>
+    <fullyQualifiedTypeName name="objectTest.ObjectTest"/>
+    <fullyQualifiedTypeName name="arrayListTest.ArrayListTest"/>
+    <fullyQualifiedTypeName name="java.text.CollationElementIterator"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="exceptionTest.BadWordExeception"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="arrayList.Task.DBConnecter"/>
+    <fullyQualifiedTypeName name="arrayList.Task.UserField"/>
 </qualifiedTypeNameHistroy>

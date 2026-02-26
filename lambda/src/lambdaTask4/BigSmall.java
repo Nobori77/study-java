@@ -1,5 +1,5 @@
 package lambdaTask4;
 @FunctionalInterface
 public interface BigSmall {
-	public void bs();
+	public int[] bs(int[] arr);
 }

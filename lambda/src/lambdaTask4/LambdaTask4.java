@@ -56,14 +56,30 @@ public class LambdaTask4 {
 //      출력 예시)
 //      {10, 9, 8, 7, 3, 0}
 	   		
-	   	BigSmall bigsmall = () -> {
-	   		int arr[] = {
-	   			(int)(Math.random() * 10)
-	   		};
-	   		for(int i = 0; i < 10; i++) {
+	   	BigSmall bigsmall = (arr) -> {
+	   		
+	   		for(int i = 0; i < arr.length - 1; i++) {
+	   			int maxIndex = i;
+	   			for(int j = i + 1; j < arr.length; j++) {
+	   				if(arr[j] > arr[maxIndex]) {
+	   					maxIndex = j;
+	   				}
+	   			}
 	   			
+//	   			swap
+	   			int temp = arr[i];
+	   			arr[i] = arr[maxIndex];
+	   			arr[maxIndex] = temp;
 	   		}
+	   		return arr;
 	   	};
+	   	
+	   	int[] numbers = {10, 3, 7, 8, 9};
+	   	numbers = bigsmall.bs(numbers);
+	   	for(int number: numbers) {
+	   		System.out.print(number + " ");
+	   	}
+	   	
       
    }
 }
