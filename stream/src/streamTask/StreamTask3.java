@@ -28,7 +28,11 @@ public class StreamTask3 {
 //	      유저의 성별이 "남" 이라면 "man"
 //	      "여" 라면 "woman" 으로 바꿔서 모두 출력하기
 	      
-	      users.stream().map(User::getGender);
+	      users
+	      	.stream()
+	      	.map(User::getGender)
+	        .map(g -> g.equals("남") ? "man" : g.equals("여") ? "woman" : g)
+	        .forEach(System.out::println);
 	      
 	}
 }
