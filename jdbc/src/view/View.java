@@ -9,7 +9,7 @@ import vo.MemberVO;
 public class View {
 	public static void main(String[] args) {
 		MemberDAO memberDAO = new MemberDAO();
-		MemberVO memberVO = new MemberVO();
+//		MemberVO memberVO = new MemberVO();
 		
 //		memberVO.setMemberEmail("hong1234@gmail.com");
 //		memberVO.setMemberPassword("1234");
@@ -34,19 +34,29 @@ public class View {
 //		memberVO.setMemberPassword("1234");
 //		memberVO.setMemberAddress("서울시 종로구");
 		
+		MemberVO hong = new MemberVO("hong1234@gmail.com", "1234", "서울시 강남구");
 		MemberVO lee = new MemberVO("lee1234@gmail.com", "1234", "경기도 성남시");
 		MemberVO jang = new MemberVO("jang4567@gmail.com", "1234", "경기도 수원시");
-		MemberVO kim = new MemberVO("kim7897@gmail.com", "1234", "서울시 종로구");
+		MemberVO kim = new MemberVO("kim7897@gmail.com", "12345678", "서울시 종로구");
 //		
-//		ArrayList<MemberVO> users = new ArrayList<MemberVO>(Arrays.asList(lee, jang, kim));
+//		ArrayList<MemberVO> users = new ArrayList<MemberVO>(Arrays.asList(hong, lee, jang, kim));
 //		users.forEach(memberDAO::join);
-//		
+		
 //		System.out.println("회원가입 완료!");
 		
-		if(memberDAO.login(kim)) {
+		if(memberDAO.login(hong)) {
 			System.out.println("로그인 성공");
+			System.out.println(memberDAO.findMyId());
+			
+//			System.out.println(memberDAO.changePassword("12345678"));
 		}else {
 			System.out.println("로그인 실패");
 		}
+		System.out.println(memberDAO.getRecommenders());
+		System.out.println(memberDAO.getMyRecommender());
+		
+		
+		
+		
 	}
 }
